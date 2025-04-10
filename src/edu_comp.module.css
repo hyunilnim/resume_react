@@ -1,0 +1,72 @@
+.container {
+  width: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  position: relative;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 0%;
+  bottom: 0;
+  height: 2px;
+  background-color: rgb(205, 204, 204);
+}
+
+.container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 10px;
+  /* margin-bottom: 10px; */
+  color: rgb(1, 1, 128);
+}
+
+.eduInfo {
+  color: black;
+  width: calc(100% - 10px);
+  margin-left: 10px;
+  line-height: 0.1;
+}
+
+.eduInfoTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: -10px;
+}
+
+.eduInfoTitle p:first-child {
+  font-size: 1.2em;
+  color: rgb(112, 112, 244);
+  font-weight: bold;
+}
+
+.eduInfoTitle p:last-child {
+  margin-left: 10px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.eduInfoContent {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  line-height: 0.5;
+}
+
+.eduInfoContent p:first-child {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: -1px;
+}
+
+.eduInfoContent p:last-child {
+  color: #444343;
+  font-size: 0.9em;
+  font-style: italic;
+}

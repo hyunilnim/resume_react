@@ -1,0 +1,84 @@
+.container {
+  width: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  position: relative;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  right: 10%;
+  bottom: 0;
+  height: 2px;
+  background-color: rgb(205, 204, 204);
+}
+
+.iconContainer {
+  width: 50%;
+  align-items: flex-start;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 30px;
+  margin-left: -20px;
+}
+
+.fontAwesomeIcon {
+  font-size: 4rem;
+  color: black;
+}
+
+.container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 10px;
+  /* margin-bottom: 10px; */
+  color: rgb(1, 1, 128);
+}
+
+.carInfo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.eduInfoContent {
+  width: 50%;
+  margin-left: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  line-height: 2;
+}
+
+.eduInfoContent p:first-child {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.eduInfoContent ul {
+  line-height: 0.2;
+  padding-left: 0;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.eduInfoContent li {
+  color: #444343;
+  font-size: 0.9em;
+  font-style: italic;
+}
