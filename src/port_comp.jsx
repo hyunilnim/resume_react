@@ -9,14 +9,18 @@ function PortComp() {
         <h1>Portfolio</h1>
         <div className={styles.carInfo}>
           <div className={styles.iconContainer}>
-            <FontAwesomeIcon
-              icon={faGithub}
-              className={styles.fontAwesomeIcon}
-            />
-            <FontAwesomeIcon
-              icon={faFigma}
-              className={styles.fontAwesomeIcon}
-            />
+            <a href="https://github.com/hyunilnim">
+              <FontAwesomeIcon
+                icon={faGithub}
+                className={styles.fontAwesomeIcon}
+              />
+            </a>
+            <a href="https://chivalrous-shallot-c84.notion.site/Computer-Engineer-Hyunil-Kim-9241f2b861814d348bc31a7645021103?pvs=4">
+              <FontAwesomeIcon
+                icon={faFigma}
+                className={styles.fontAwesomeIcon}
+              />
+            </a>
           </div>
           <div className={styles.eduInfoContent}>
             <p>Skills</p>

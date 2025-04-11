@@ -6,6 +6,7 @@ import ConComp from "./con_comp";
 import ImgComp from "./img_comp";
 import CarComp from "./car_comp";
 import PortComp from "./port_comp";
+import ProfileComp from "./profile_comp";
 import styles from "./App.module.css";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <div className={styles.rightContainer}>
           <CarComp />
           <PortComp />
+          <ProfileComp />
         </div>
       </div>
     </>

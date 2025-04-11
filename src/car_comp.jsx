@@ -1,5 +1,5 @@
 import styles from "./car_comp.module.css";
-import reactLogo from "./assets/react.svg";
+import yearsImg from "./assets/years_img.png";
 
 function CarComp() {
   return (
@@ -7,7 +7,9 @@ function CarComp() {
       <div className={styles.container}>
         <h1>Career</h1>
         <div className={styles.carInfo}>
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <div className={styles.imgWrapper}>
+            <img src={yearsImg} className="logo react" alt="React logo" />
+          </div>
           <div className={styles.eduInfo}>
             <div className={styles.eduInfoTitle}>
               <p>career1</p>
@@ -23,7 +25,9 @@ function CarComp() {
           </div>
         </div>
         <div className={styles.carInfo}>
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <div className={styles.imgWrapper}>
+            <img src={yearsImg} className="logo react" alt="React logo" />
+          </div>
           <div className={styles.eduInfo}>
             <div className={styles.eduInfoTitle}>
               <p>career2</p>
@@ -36,7 +40,9 @@ function CarComp() {
           </div>
         </div>
         <div className={styles.carInfo}>
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <div className={styles.imgWrapper}>
+            <img src={yearsImg} className="logo react" alt="React logo" />
+          </div>
           <div className={styles.eduInfo}>
             <div className={styles.eduInfoTitle}>
               <p>career3</p>

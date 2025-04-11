@@ -13,7 +13,7 @@ body {
   width: calc(210mm - 20px); /* A4 width minus margins */
   height: calc(297mm - 20px); /* A4 height minus margins */
   margin: 10px;
-  background-color: rgb(246, 246, 240);
+  background-color: rgb(229, 229, 211);
   border-radius: 10px;
   display: flex;
   flex-direction: row;

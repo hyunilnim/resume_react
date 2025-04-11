@@ -33,6 +33,13 @@
 .fontAwesomeIcon {
   font-size: 4rem;
   color: black;
+  transition: 0.7s;
+}
+
+.fontAwesomeIcon:hover {
+  color: skyblue;
+  transform: rotate(-360deg) scale(1);
+  opacity: 1;
 }
 
 .container h1 {
